@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background: #E5E5E5;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+}
+
+main { 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    background: #FFFFFF;
+    margin: auto;
+    max-width: 550px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.brand {
+    display: flex;
+    column-gap: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-block: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.input--grp {
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.btn {
+    height: 35px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.meme {
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+
+@media screen and (min-width: 500px) {
+    .header {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
