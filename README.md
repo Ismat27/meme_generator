@@ -1,1 +1,1 @@
-(A meme generator app)[https://smart-meme-generator.netlify.app]
+[A meme generator app](https://smart-meme-generator.netlify.app)
